@@ -13,7 +13,6 @@ def input_to_index(user_input)
 end
 
 #how do I get the value of above method (converted input) for 'index'
-def move(array, index, char = 'X') 
+def move(array, index, char = 'X')
   array[index] = char
 end
-
