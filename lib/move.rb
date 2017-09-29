@@ -12,7 +12,8 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-#how do I get the value of above method (converted input) for 'index'
+index = input_to_index(user_input)
+
 def move(array, index, char = 'X')
   array[index] = char
 end
